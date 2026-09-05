@@ -1,16 +1,17 @@
-# Exercicios de TDD em Go
+# Exercícios de TDD em Python
 
-Resolucao simples dos quatro exercicios da lista usando Go e o pacote padrao `testing`.
+Resolução simples dos quatro exercícios da lista usando Python e `pytest`.
 
-## Executando os testes
+## Exercícios
+
+1. Validador de Chave Pix.
+2. Motor de Análise de Risco de Crédito.
+3. Processador de Extrato Estornável.
+4. Conversor de Moedas com mock de API.
+
+## Rodando os testes
 
 ```bash
-go test ./...
+pip install pytest
+pytest -q
 ```
-
-Os exercicios implementados sao:
-
-1. Validacao de chave Pix.
-2. Analise de risco de credito.
-3. Ledger de transacoes com saque, deposito e estorno.
-4. Conversao de moedas com uma API simulada por interface.
